@@ -1,0 +1,16 @@
+package com.qa.calculator;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		int num1 = 5;
+		int num2 = 10;
+		Operators myNum = new Operators(num1, num2);
+		
+		
+		System.out.println(myNum.AddTwoNum());
+		System.out.println(myNum.MultiplyTwoNum());
+		System.out.println(myNum.SubtractTwoNum());
+	}
+
+}

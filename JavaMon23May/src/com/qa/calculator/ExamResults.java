@@ -1,0 +1,39 @@
+package com.qa.calculator;
+
+public class ExamResults {
+	
+	private double physics;
+	private double chemistry;
+	private double biology;
+	private double total;
+	private double percentage;
+	
+	public ExamResults(double physics2, double chemistry2, double biology2) {
+		
+		this.physics = physics2;
+		this.chemistry = chemistry2;
+		this.biology = biology2;
+		this.total = physics2 + chemistry2 + biology2;
+		this.percentage = total * 100 / 450;
+	
+	}
+
+
+public String YourResults() {
+	
+	double result = physics + chemistry + biology;
+	return "Physics " + physics + " Chemistry " + chemistry + " Biology " + biology + " Total " + result + "/450";
+	
+	
+	
+}
+
+public String YourPercentage() {
+	double examresult = percentage;
+	return "Your overall score for the exams is " + examresult + " % ";
+}
+
+}
+	
+
+

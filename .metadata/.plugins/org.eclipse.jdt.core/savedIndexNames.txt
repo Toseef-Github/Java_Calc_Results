@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/Users/toseef11/Desktop/JavaTasks/.metadata/.plugins/org.eclipse.jdt.core
+4232423632.index
+1865797976.index
+2309036621.index

@@ -1,0 +1,20 @@
+
+public class Operators {
+
+	public static void main(String[] args) {
+		int num1 = 5;
+		int num2 = 10;
+		int resultadd = num1 + num2;
+		System.out.println(resultadd);
+
+	}
+	public String multiplication () {
+		int num3 = 3;
+		int num4 = 4;
+		int resultmulti = num3 * num4;
+		System.out.println(resultmulti);
+		return null;
+		
+	}
+	
+}

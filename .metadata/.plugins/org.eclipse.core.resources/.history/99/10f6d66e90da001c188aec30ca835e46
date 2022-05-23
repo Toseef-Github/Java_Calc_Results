@@ -1,0 +1,15 @@
+package com.qa.calculator;
+
+public class Calculator {
+
+	public static void main(String[] args) {
+		int num1;
+		int num2;
+		Operators myNum = new Operators(num1 = 2, num2 = 5);
+		
+		
+		System.out.println(myNum.addTwoNum());
+
+	}
+
+}

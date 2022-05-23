@@ -1,0 +1,15 @@
+package com.qa.calculator;
+
+public class ExamResults {
+	
+	private int physics;
+	private int chemistry;
+	private int biology;
+	private int total;
+	private int percentage;
+	
+	
+	
+	
+
+}

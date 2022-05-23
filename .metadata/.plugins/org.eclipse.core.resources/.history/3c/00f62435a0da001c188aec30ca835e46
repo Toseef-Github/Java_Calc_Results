@@ -1,0 +1,32 @@
+package com.qa.calculator;
+
+public class ExamResults {
+	
+	private double physics;
+	private double chemistry;
+	private double biology;
+	private double total;
+	private int percentage;
+	
+	double totalMark = physics + chemistry + biology;
+	double examPercentage = totalMark * 100 / 450;
+	
+
+	
+
+
+public String YourResults() {
+	
+	double result = physics + chemistry + biology;
+	return "Physics" + physics + "Chemistry" + chemistry + " Biology" + biology + "Total" + result + "/450";
+	
+	
+	
+	
+	
+}
+
+}
+	
+
+

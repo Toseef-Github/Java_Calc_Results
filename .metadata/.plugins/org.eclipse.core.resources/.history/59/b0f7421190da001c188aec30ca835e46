@@ -1,0 +1,38 @@
+package com.qa.calculator;
+
+public class Operators {
+	
+	public int num1;
+	public int num2;
+
+	public Operators(int num1, int num2) {
+		
+		this.num1 = num1;
+		this.num2 = num2;
+	}
+	
+	public int addTwoNum() {
+		int result = this.num1 + this.num2;
+		return this.num1 + this.num2 + result;
+		
+	}
+	
+	
+	
+	
+
+	// public static void main(String[] args) {
+	//	int num1 = 5;
+	//	int num2 = 10;
+	//	int resultadd = num1 + num2;
+	//	System.out.println(resultadd);
+		
+
+	//	int num3 = 3;
+	//	int num4 = 4;
+	//	int resultmulti = num3 * num4;
+	//	System.out.println(resultmulti);
+		
+	}
+	
+}
